@@ -1,0 +1,143 @@
+:root {
+    --light-blue-100: #f3f5fc;
+    --light-blue-200: #eff1fa;
+    --light-blue-300: #E9ECF8;
+    --light-blue-400: #aab2d5;
+    --light-blue-500: #757fb2;
+    --light-blue-600: #eff1fa;
+  
+    --dark-blue-100: #609ed4;
+    --dark-blue-200: #356ea9;
+    --dark-blue-300: #0a3871;
+    --dark-blue-400: #072b61;
+    --dark-blue-500: #052051;
+  
+    --gray-100: #ced4da;
+    --gray-200: #adb5bd;
+    --gray-300: #868e96;
+    --gray-400: #495057;
+    --gray-500: #343a40;
+
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #9BBEC8;
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-blue-300);
+
+    
+  }
+    
+  .header__logo{
+    padding: 1.87rem 0px 1.87rem 1.87rem;
+  }
+  
+  .container{
+    padding: 0% 10%;
+    display: flex;
+    gap: 1.87rem;
+  }
+  
+  .container__texto{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    
+  }
+  
+  .container__botao{
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.87rem;
+  }
+  
+  button{
+    border: 1px solid var(--dark-blue-300); 
+    width: 20.5rem;
+    height: 4.18rem;
+    font-size: 1rem;
+    border-radius: 1.87rem;
+    cursor: pointer;
+  }
+  
+  .btnCript {  
+    color: var(--light-blue-100);
+    background-color: var(--dark-blue-300);
+  }
+  .btnDescript {
+    color: var(--dark-blue-300);
+    background-color: var(--light-blue-100);
+  }
+  
+  .container__resultado{
+    background-color: white;
+    border-radius: 1.87rem;
+    width: 25rem;
+    height: 43.75rem;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+  }
+  
+  .resultado{
+    font-size: 1.87rem;
+  }
+  
+  .container__textarea{
+   
+    padding-left: 120px;
+    padding-right: 120px;
+    
+  }
+  .container__textarea textarea {
+    height: 30rem;
+    background-color: transparent;
+    color: var(--dark-blue-300);
+    border: hidden;
+    outline: none;
+    font-size: 1.87rem;
+  }
+  .destaqueTexto{
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 5% 0;
+  }
+  
+  .resultado__imagem{
+    width: 80%;
+  }
+  
+  .container__texto__aviso{
+    font-size: 1rem;
+    color: var(--gray-400);
+  }
+
+  i {
+    color: var(--dark-blue-300);
+  }
+  .container__footer{
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  button:hover{
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 768px) {
+    .header__logo{
+      padding: 5% 5%;
+    }
+  }
