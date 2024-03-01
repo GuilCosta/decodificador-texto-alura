@@ -13,8 +13,8 @@ Este é um projeto proposto pela Alura + ONE após 2 formações que totalizaram
 - Ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
         Por exemplo:
-        "ola" => "oberlai"
-        oberlai" => "ola"
+        "ola mundo" => "oberlai mufatndober"
+        oberlai mufatndober" => "ola mundo"
 
 - Ter o resultado deve ser exibido na tela.
   
