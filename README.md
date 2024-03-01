@@ -1,4 +1,3 @@
-CHALLENGE
 Aplicativo de decodificador e descodificador de texto 💻🔐 Este projeto foi construído como parte de uma parceria entre a Alura e a Oracle.
 
 ## Tecnologias
