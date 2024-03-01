@@ -16,7 +16,7 @@ Este é um projeto proposto pela Alura + ONE após 2 formações que totalizaram
         "ola mundo" => "oberlai mufatndober"
         oberlai mufatndober" => "ola mundo"
 
-- Ter o resultado deve ser exibido na tela.
+- Ter o resultado exibido na tela.
   
 - A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
 
